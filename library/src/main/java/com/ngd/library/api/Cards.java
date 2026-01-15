@@ -1,6 +1,5 @@
 package com.ngd.library.api;
 
-public interface Search {
-
+public class Cards {
     
 }
