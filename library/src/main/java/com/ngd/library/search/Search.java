@@ -1,7 +1,12 @@
 package com.ngd.library.search;
 
-public interface Search {
+public class Search implements SearchService { 
 
-    void properties();
+    @Override
+    public String getUrl() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getUrl'");
+    }
+
 
 }

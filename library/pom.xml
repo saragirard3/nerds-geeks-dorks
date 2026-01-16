@@ -81,6 +81,7 @@
 			<properties>
 				<spring.profiles.active>dev</spring.profiles.active>
 			</properties>
+			<scryfall.api.url>https://api.scryfall.com</scryfall.api.url>
 		</profile>
 		<profile>
 			<id>prod</id>
