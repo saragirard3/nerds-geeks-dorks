@@ -1,4 +1,8 @@
-package com.ngd.library.search;
+package com.ngd.library.search.impl;
+
+import com.ngd.library.search.SearchResponse;
+import com.ngd.library.search.SearchService;
+import com.ngd.library.search.requests.SearchRequest;
 
 public class Search implements SearchService { 
 
