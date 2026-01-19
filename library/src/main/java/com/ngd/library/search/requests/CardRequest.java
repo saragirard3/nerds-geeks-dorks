@@ -1,7 +1,8 @@
 package com.ngd.library.search.requests;
 
 public class CardRequest extends SearchRequest {
-    // Define fields and methods specific to card search requests
-    
-    
+    Long id;
+    String cardId;
+    String cardName;
+    String json;
 }
