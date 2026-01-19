@@ -1,7 +1,9 @@
 package com.ngd.library.common;
 
-public interface Request {
-    // Define methods for request handling
+import java.io.Serializable;
 
+public interface Request extends Serializable{
+    // Define methods for request handling
+    
     
 }

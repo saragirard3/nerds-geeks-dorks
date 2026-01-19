@@ -1,6 +1,8 @@
 package com.ngd.library.common;
 
-public interface Response {
+import java.io.Serializable;
+
+public interface Response extends Serializable {
     // Define methods for response handling
 
     

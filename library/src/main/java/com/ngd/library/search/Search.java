@@ -3,9 +3,13 @@ package com.ngd.library.search;
 public class Search implements SearchService { 
 
     @Override
-    public String getUrl() {
+    public SearchResponse search(SearchRequest request) {
+        
+
+
+
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getUrl'");
+        throw new UnsupportedOperationException("Unimplemented method 'start'");
     }
 
 
