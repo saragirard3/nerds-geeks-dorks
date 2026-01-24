@@ -17,7 +17,7 @@ public class CardSearch extends Search {
         
         cardRequest = (CardRequest) request;
 
-        String uri = createUri();
+        String uri = createUri(cardRequest);
 
         String finalRequest = formatRequest(cardRequest);
 
@@ -25,7 +25,7 @@ public class CardSearch extends Search {
 
     }
 
-    private String createUri() {
+    private String createUri(CardRequest cardRequest) {
         // TODO
         // Build URI based on cardRequest parameters
 
