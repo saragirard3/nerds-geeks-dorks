@@ -1,7 +1,7 @@
 package com.ngd.library.search.impl;
 
 import com.ngd.library.search.SearchResponse;
-import com.ngd.library.search.requests.CardRequest;
+import com.ngd.library.search.requests.MagicCardRequest;
 import com.ngd.library.search.requests.SearchRequest;
 
 public class CardSearch extends Search {
@@ -10,12 +10,12 @@ public class CardSearch extends Search {
     // <scryfall.api.url>https://api.scryfall.com/</scryfall.api.url>
 
     // String url = "/cards/named?fuzzy=blazing+crescendo";
-    CardRequest cardRequest;
+    MagicCardRequest cardRequest;
     SearchResponse searchResponse;
 
     public SearchResponse search(SearchRequest request) {
         
-        cardRequest = (CardRequest) request;
+        cardRequest = (MagicCardRequest) request;
 
         String uri = createUri(cardRequest);
 
@@ -25,14 +25,14 @@ public class CardSearch extends Search {
 
     }
 
-    private String createUri(CardRequest cardRequest) {
+    private String createUri(MagicCardRequest cardRequest) {
         // TODO
         // Build URI based on cardRequest parameters
 
         return null;
     }
 
-    private String formatRequest(CardRequest cardRequest) {
+    private String formatRequest(MagicCardRequest cardRequest) {
         // TODO 
         // Build URL based on cardRequest parameters
         

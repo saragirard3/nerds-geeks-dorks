@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class CardRequest extends SearchRequest {
+public class MagicCardRequest extends SearchRequest {
     Long id;
     String cardId;
     String cardName;

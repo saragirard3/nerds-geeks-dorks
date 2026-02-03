@@ -1,4 +1,4 @@
-package com.ngd.library.card;
+package com.ngd.magic.card;
 
 import java.io.Serializable;
 
