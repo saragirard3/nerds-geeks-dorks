@@ -1,4 +1,4 @@
-package com.ngd.library;
+package com.ngd.magic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
