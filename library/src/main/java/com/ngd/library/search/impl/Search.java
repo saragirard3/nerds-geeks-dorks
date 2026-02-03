@@ -15,12 +15,6 @@ public class Search implements SearchService {
             return cardSearch.search(request);
         }
 
-        else if (request instanceof SetRequest) {
-            // handle set request
-            SetSearch setSearch = new SetSearch();
-            return setSearch.search(request);
-        }
-
         else {
             // unknown request type
             

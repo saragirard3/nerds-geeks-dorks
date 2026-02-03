@@ -10,10 +10,10 @@
 	</parent>
 
 	<groupId>com.ngd</groupId>
-	<artifactId>library</artifactId>
+	<artifactId>magic</artifactId>
 	<version>0.0.1</version>
 
-	<name>library</name>
+	<name>magic</name>
 	<description>nerds-geeks-dorks</description>
 	
 	<properties>
